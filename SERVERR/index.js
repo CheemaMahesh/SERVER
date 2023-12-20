@@ -17,7 +17,7 @@ app.use(cors());
 app.use('/',require('./routes')); 
 
 
-const CONNECT_URL='mongodb://127.0.0.1/SERVERS';
+const CONNECT_URL='mongodb+srv://MaheshCK:MaHeSh7893@stack-overflow-clone.itsy6as.mongodb.net/';
 
 const mongoose=require('mongoose');
 mongoose.set('strictQuery',false);
